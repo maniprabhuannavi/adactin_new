@@ -1,0 +1,258 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 12,
+        "name": "Login Module in adactin application",
+        "description": "",
+        "id": "hotel-booking-application;login-module-in-adactin-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 17042843609,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch adactin the application",
+            "match": {
+              "location": "stepdefinition.user_launch_adactin_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72723358,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"mani\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mani",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 45450159,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"123\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "123",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 380288465,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks login buton in adactin application",
+            "match": {
+              "location": "stepdefinition.clicks_login_buton_in_adactin_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 13,
+        "name": "Login Module in adactin application",
+        "description": "",
+        "id": "hotel-booking-application;login-module-in-adactin-application;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 336185954,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch adactin the application",
+            "match": {
+              "location": "stepdefinition.user_launch_adactin_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 62389319,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"maniprabhu\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maniprabhu",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 52703504,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"mani123\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mani123",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 386746501,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks login buton in adactin application",
+            "match": {
+              "location": "stepdefinition.clicks_login_buton_in_adactin_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "line": 14,
+        "name": "Login Module in adactin application",
+        "description": "",
+        "id": "hotel-booking-application;login-module-in-adactin-application;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 330181581,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User launch adactin the application",
+            "match": {
+              "location": "stepdefinition.user_launch_adactin_the_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 72573481,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter \"maniprabhuannavi\" in username field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "maniprabhuannavi",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_in_username_field(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50830201,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enter \"Mani@3411\" password field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mani@3411",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefinition.user_enter_password_field(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 993851025,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "clicks login buton in adactin application",
+            "match": {
+              "location": "stepdefinition.clicks_login_buton_in_adactin_application()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Hotel Booking application",
+    "description": "",
+    "id": "hotel-booking-application",
+    "keyword": "Feature",
+    "uri": "src/test/java/com/featurefile/adactin.feature"
+  }
+]
